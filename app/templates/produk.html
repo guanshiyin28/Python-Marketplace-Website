@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Produk -->
+<section id="produk" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Produk Terbaru</h2>
+        <div class="row">
+            {% for product in products %}
+            <div class="col-md-3">
+                <a href="/product/{{product.id}}">
+                <div class="card">
+                        <img src="{{product.image}}" class="card-img-top" width="20%">
+                    <div class="card-body">
+                        <h5 class="card-title">{{product.title}}</h5>
+                        <p class="card-text">{{product.price}}</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

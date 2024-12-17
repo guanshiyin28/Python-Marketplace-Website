@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}    <!-- Detail Produk -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{{product['image']}}" class="img-fluid" alt="Gambar Produk">
+                </div>
+                <div class="col-md-6">
+                    <h1>{{product['title']}}</h1>
+                    <p class="text-muted">{{product['category']}}</p>
+                    <h4 class="text-primary">{{product['price']}}</h4>
+                    <button class="btn btn-success">Beli Sekarang</button>
+                </div>
+            </div>
+            <hr class="my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Deskripsi Produk</h3>
+                    <p>{{product['description']}}</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <h3>Ulasan</h3>
+                    <div class="mb-3">
+                        <strong>John Doe</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ⭐⭐⭐⭐☆</p>
+                    </div>
+                    <div class="mb-3">
+                        <strong>Jane Smith</strong>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco. ⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="review" class="form-label">Tulis Ulasan Anda</label>
+                            <textarea class="form-control" id="review" rows="4" placeholder="Bagikan pengalaman Anda"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Ulasan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock %}
