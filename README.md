@@ -1,51 +1,104 @@
 <div align=center>
   
+![Demo](https://github.com/user-attachments/assets/e15154a0-bd7f-44c4-80a1-cac2c855e08c)
 
 </div>
 
-# Python Simple Website
+# Python Marketplace Website
 
-This repository presents a simple, animated login page with a minimalist design, prioritizing a clean user experience and subtle animations.
+This repository aims to provide a starting point for developing a Python-based marketplace web application.
 
 <hr><br>
 
 ## Purpose of This Repository
 
-This repository aims to provide a basic, visually appealing login page implementation that can be easily customized and integrated into various web projects. It serves as a starting point for developers seeking to create clean, user-friendly login interfaces.
+This repository serves as a foundational framework for developing a Python-based marketplace web application, encompassing core features such as user registration and authentication, product listing and management, basic search functionality, and a user-friendly interface, providing a robust starting point for developers seeking to build a dynamic and scalable online marketplace platform.
 
 <hr><br>
 
 ## Steps
 
-1. Clone this Repository
+1. Install python
 
 ```
-git clone https://github.com/guanshiyin28/Minimalist-Animated-Login.git
-```
 
-<div align=center>
-
-![1](https://github.com/user-attachments/assets/fdbdcc5f-b6aa-4f23-bde0-78b56dd5c9c8)
-
-</div>
-
-2. Open it
-
-```
-cd Minimalist-Animated-Login
-code .
 ```
 
 <div align=center>
   
-![2](https://github.com/user-attachments/assets/03ee4ca3-80be-4178-a3cc-0adefb3fc233)
+
 </div>
 
-3. Run & see the result
+2. Install & upgrade pip
+
+```
+python -m ensurepip --upgrade
+python get-pip.py
+python -m pip install --upgrade pip
+```
 
 <div align=center>
   
-![3](https://github.com/user-attachments/assets/30860d53-43ab-48c0-b343-24c1285feabf)
+![2](https://github.com/user-attachments/assets/18857cfc-0606-4f8e-b163-aea0e2e7e009)
+
+</div>
+
+3. Install flask
+
+```
+pip install Flask
+```
+
+<div align=center>
+  
+![3](https://github.com/user-attachments/assets/73e241f4-3263-4fd6-aa1b-d20003a435bc)
+
+</div>
+
+4. Install requests
+
+```
+pip install requests
+```
+<div align=center>
+  
+![4](https://github.com/user-attachments/assets/4cf49a0c-d02d-4d8e-844d-1c9b30e7b63b)
+
+</div>
+
+5. Clone this Repository
+
+```
+git clone https://github.com/guanshiyin28/Python-Marketplace-Website.git
+```
+
+<div align=center>
+
+![5](https://github.com/user-attachments/assets/9de750a9-ce59-4875-9c2a-261dda58f795)
+
+</div>
+
+6. Direct to the directory
+
+```
+cd Python-Marketplace-Website
+```
+
+<div align=center>
+  
+![6](https://github.com/user-attachments/assets/1877733d-db06-4511-98e2-7d6358fafd3c)
+
+</div>
+
+7. Run with python and see through the localhost
+
+```
+python app.py
+```
+<div align=center>
+  
+![7](https://github.com/user-attachments/assets/6b9c4c78-86b8-4d6b-8523-2a3a1cb6b24b)
+
 </div>
 <hr><br>
 
