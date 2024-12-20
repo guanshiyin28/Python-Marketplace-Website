@@ -1,5 +1,6 @@
 <div align=center>
   
+![Demo](https://github.com/user-attachments/assets/e15154a0-bd7f-44c4-80a1-cac2c855e08c)
 
 </div>
 
@@ -38,6 +39,7 @@ python -m pip install --upgrade pip
 
 <div align=center>
   
+![2](https://github.com/user-attachments/assets/18857cfc-0606-4f8e-b163-aea0e2e7e009)
 
 </div>
 
@@ -49,6 +51,7 @@ pip install Flask
 
 <div align=center>
   
+![3](https://github.com/user-attachments/assets/73e241f4-3263-4fd6-aa1b-d20003a435bc)
 
 </div>
 
@@ -59,6 +62,7 @@ pip install requests
 ```
 <div align=center>
   
+![4](https://github.com/user-attachments/assets/4cf49a0c-d02d-4d8e-844d-1c9b30e7b63b)
 
 </div>
 
@@ -70,7 +74,7 @@ git clone https://github.com/guanshiyin28/Python-Marketplace-Website.git
 
 <div align=center>
 
-
+![5](https://github.com/user-attachments/assets/9de750a9-ce59-4875-9c2a-261dda58f795)
 
 </div>
 
@@ -82,6 +86,7 @@ cd Python-Marketplace-Website
 
 <div align=center>
   
+![6](https://github.com/user-attachments/assets/1877733d-db06-4511-98e2-7d6358fafd3c)
 
 </div>
 
@@ -92,6 +97,7 @@ python app.py
 ```
 <div align=center>
   
+![7](https://github.com/user-attachments/assets/6b9c4c78-86b8-4d6b-8523-2a3a1cb6b24b)
 
 </div>
 <hr><br>
