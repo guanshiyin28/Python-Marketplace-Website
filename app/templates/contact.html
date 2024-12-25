@@ -1,0 +1,110 @@
+{% extends "base.html" %} {% block title %}Guan - Our Contact{% endblock %} {%
+block content %}
+<!-- Kontak -->
+<section id="contact" class="py-5 mb-5">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #ff0000">Our Contact</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div
+          class="card box-shadow mb-3 glow"
+          style="background-color: #000000"
+        >
+          <div class="card-header" style="background-color: #ff0000">
+            Contact Information
+          </div>
+          <div class="card-body text-white">
+            <h4 class="card-title">Alamat</h4>
+            <p class="card-text">
+              〒150-0031 Tokyo, Shibuya<br />Sakuragaokacho,
+              20−1渋谷インフォスタワ 19階<br />Japan
+            </p>
+            <h4 class="card-title">Email</h4>
+            <p class="card-text">guanshiyinnn@gmail.com</p>
+            <h4 class="card-title">Phone</h4>
+            <p class="card-text">+62 813 8131 9442</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="card box-shadow mb-3 glow"
+          style="background-color: #000000"
+        >
+          <div class="card-header" style="background-color: #ff0000">
+            Contact Forms
+          </div>
+          <div class="card-body text-white">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Insert Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Insert Your Email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Write Your Message"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-custom"
+                style="background-color: #ff0000"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <div class="card box-shadow glow" style="background-color: #000000">
+          <div class="card-header" style="background-color: #ff0000">
+            Our Place
+          </div>
+          <div class="card-body text-white">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d286.5444408211438!2d139.70073484026543!3d35.655321270950296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ba991ccc471%3A0x272096440c11cd92!2smiHoYo%20Co.%2C%20Ltd.!5e0!3m2!1sen!2sid!4v1735092626864!5m2!1sen!2sid"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Custom CSS for glow effect -->
+<style>
+  .glow {
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.5);
+  }
+  .card {
+    height: 100%;
+  }
+</style>
+{% endblock %}
