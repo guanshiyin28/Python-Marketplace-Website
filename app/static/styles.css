@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Loading spinner container */
+#loading-spinner {
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background overlay */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+/* Spinner animation */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  border: 0.25em solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Progress bar */
+.progress-bar {
+  width: 0;
+  height: 5px;
+  background: white;
+  margin-top: 20px;
+}
+
+/* Blur effect for content during loading */
+.blur {
+  filter: blur(5px);
+  pointer-events: none;
+}
