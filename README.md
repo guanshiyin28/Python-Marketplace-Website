@@ -47,23 +47,11 @@ python get-pip.py
 python -m pip install --upgrade pip
 ```
 
-<div align=center>
-  
-![2](https://github.com/user-attachments/assets/18857cfc-0606-4f8e-b163-aea0e2e7e009)
-
-</div>
-
 3. Install flask
 
 ```bash
 pip install Flask
 ```
-
-<div align=center>
-  
-![3](https://github.com/user-attachments/assets/73e241f4-3263-4fd6-aa1b-d20003a435bc)
-
-</div>
 
 4. Install requests
 
@@ -71,47 +59,24 @@ pip install Flask
 pip install requests
 ```
 
-<div align=center>
-  
-![4](https://github.com/user-attachments/assets/4cf49a0c-d02d-4d8e-844d-1c9b30e7b63b)
-
-</div>
-
 5. Clone this Repository
 
 ```bash
 git clone https://github.com/guanshiyin28/Python-Marketplace-Website.git
 ```
 
-<div align=center>
-
-![5](https://github.com/user-attachments/assets/9de750a9-ce59-4875-9c2a-261dda58f795)
-
-</div>
-
 6. Direct to the directory
 
-```
+```bash
 cd Python-Marketplace-Website
 ```
 
-<div align=center>
-  
-![6](https://github.com/user-attachments/assets/1877733d-db06-4511-98e2-7d6358fafd3c)
-
-</div>
-
 7. Run with python and see through the localhost
 
-```
+```bash
 python app.py
 ```
 
-<div align=center>
-  
-![7](https://github.com/user-attachments/assets/6b9c4c78-86b8-4d6b-8523-2a3a1cb6b24b)
-
-</div>
 <hr><br>
 
 ## License
