@@ -16,22 +16,32 @@ This repository serves as a foundational framework for developing a Python-based
 
 <hr><br>
 
+## Features
+
+- User registration and authentication
+- Product listing and management
+- Basic search functionality
+- User-friendly interface
+
+<hr><br>
+
+## Technologies Used
+
+- Python
+- Flask
+- Requests
+
+<hr><br>
+
 ## Steps
 
 1. Install python
-
-```
-
-```
-
-<div align=center>
-  
-
-</div>
+   Download the latest version of Python from the official website: https://www.python.org/downloads/
+   Follow the instructions to install Python on your system.
 
 2. Install & upgrade pip
 
-```
+```bash
 python -m ensurepip --upgrade
 python get-pip.py
 python -m pip install --upgrade pip
@@ -45,7 +55,7 @@ python -m pip install --upgrade pip
 
 3. Install flask
 
-```
+```bash
 pip install Flask
 ```
 
@@ -57,9 +67,10 @@ pip install Flask
 
 4. Install requests
 
-```
+```bash
 pip install requests
 ```
+
 <div align=center>
   
 ![4](https://github.com/user-attachments/assets/4cf49a0c-d02d-4d8e-844d-1c9b30e7b63b)
@@ -68,7 +79,7 @@ pip install requests
 
 5. Clone this Repository
 
-```
+```bash
 git clone https://github.com/guanshiyin28/Python-Marketplace-Website.git
 ```
 
@@ -95,11 +106,18 @@ cd Python-Marketplace-Website
 ```
 python app.py
 ```
+
 <div align=center>
   
 ![7](https://github.com/user-attachments/assets/6b9c4c78-86b8-4d6b-8523-2a3a1cb6b24b)
 
 </div>
+<hr><br>
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 <hr><br>
 
 <div align="center">
