@@ -12,11 +12,17 @@ This repository serves as a foundational framework for developing a Python-based
 
 ## Demo
 
-<div align="center">
-  
-![Demo](https://github.com/user-attachments/assets/e15154a0-bd7f-44c4-80a1-cac2c855e08c)
+Here is a demonstration of the `program` function from `app.py`:
 
-</div>
+```python
+# app.py
+
+def program():
+    print("Hello, World!")
+
+if __name__ == "__main__":
+    program()
+```
 
 <hr><br>
 
@@ -97,12 +103,12 @@ Follow these steps to set up the project on your local machine.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
 <div align="center">
-  <a href="https://www.instagram.com/guanshiyin_/">
-     <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:FF0000,20:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
-  </a>
+   <a href="https://www.instagram.com/guanshiyin_/">
+      <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:393E46,20:F7F7F7&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+   </a>
 </div>
